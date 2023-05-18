@@ -28,3 +28,14 @@ $(document).ready(function () {
 
 
 
+document.getElementById("loginForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent form submission
+    // Perform login logic here
+    alert("Login logic goes here!");
+});
+
+document.getElementById("signupForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent form submission
+    // Perform signup logic here
+    alert("Signup logic goes here!");
+});
